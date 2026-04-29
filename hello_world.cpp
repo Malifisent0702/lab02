@@ -1,11 +1,10 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iostream> // для std::cin, std::cout
+#include <string> // для std::string
 
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << endl;
+    std::string name; // переменная для хранения имени пользователя
+    std::cout << "Enter your name: "; // запрос имени
+    std::cin >> name; // чтение имени из стандартного ввода
+    std::cout << "Hello world from " << name << std::endl; // приветствие 
     return 0;
 }
